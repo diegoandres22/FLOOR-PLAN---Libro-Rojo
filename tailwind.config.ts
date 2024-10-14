@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss";
+import data from "@/../public/images/assets.json"
+
 
 const config: Config = {
   content: [
@@ -8,6 +10,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        DMG: ['"Noticia Text"', 'serif'], 
+       
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
