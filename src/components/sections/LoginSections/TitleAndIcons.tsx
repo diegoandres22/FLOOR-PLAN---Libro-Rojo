@@ -12,7 +12,7 @@ export const TitleAndIcons = () => {
         <h1 className='text-5xl font-dmg font-black text-amber-500'>Floor Plan </h1>
         <p className='opacity-0 md:opacity-100 absolute md:relative font-black mb-2 m-2'> - </p>
 
-        <h2 className='ml-1 text-2xl font-extrabold text-DMGsecundary'> LIBRO ROJO</h2>
+        <h2 className='ml-1 text-2xl font-extrabold text-DMGsecundary '> LIBRO ROJO</h2>
       </div>
     </div>
   )

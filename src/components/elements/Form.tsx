@@ -1,7 +1,4 @@
-import {Button} from "@nextui-org/react";
-
 import React from 'react'
-
 
 export const Form = () => {
     return (
@@ -46,14 +43,14 @@ export const Form = () => {
                 </label>
             </div>
 
-            
-            <Button color="default" className="w-full text-white bg-black ">
+            <button className="w-full bg-black text-white py-2 rounded-md">
                 Ingresar
-            </Button>
+            </button>
+            
 
         </form>
 
-
+     
 
     )
 }

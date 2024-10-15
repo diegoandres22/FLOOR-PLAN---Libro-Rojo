@@ -3,14 +3,12 @@ import React from 'react'
 
 export const FormLogin = () => {
     return (
-        <div className="relative flex flex-col text-white rounded-3xl p-8 w-80  mx-auto shadow-lg">
+        <div className="absolute flex flex-col text-white rounded-3xl h-[280px] w-[320px] p-8 shadow-lg m-auto inset-0">
         <h1 className="text-center text-2xl font-bold mb-4">Login</h1>
         
         <Form></Form>
     
-        <p className="text-center mt-4 font-bold text-sm">
-            Bienvenido a tu herramienta donde centralizas la información de proyecciones diarias y progreso de todas tus unidades de negocio.
-        </p>
+       
     
       
     </div>
