@@ -9,6 +9,7 @@ const page = () => {
         className="flex absolute overflow-hidden bg-cover bg-center h-screen w-screen items-center justify-center blur-sm "
         style={{ backgroundImage: `url(${data[0].Image})` }}    >
       </div>
+      <div className="w-screen h-screen bg-black/50 absolute top-0 left-0"></div>
       <div className="absolute z-10 w-screen h-screen flex flex-col lg:flex-row overflow-hidden bg-cover bg-center items-center justify-center">
         <Image src={data[1].Image} alt={data[1].alt} width={160} height={160}></Image>
         <div className="flex flex-col ">
