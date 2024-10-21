@@ -1,13 +1,11 @@
 import React from 'react'
-import { ProjectionsScreen } from "@/components/screen/ProjectionsScreen";
-import { NavBar } from '@/components/sections';
+import { NavbarScreen } from '@/components/screen/NavbarScreen';
 
 export default function page() {
     return (
         <div className='bg-fondo w-[95vw] mx-auto rounded-xl pt-4'>
-            <NavBar></NavBar>
+            <NavbarScreen></NavbarScreen>
 
-            <ProjectionsScreen></ProjectionsScreen>
         </div>
     )
 }

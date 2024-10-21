@@ -5,4 +5,5 @@ export * from "./LoginSections/FormLogin";
 export * from "./LoginSections/TextAndFoot";
 
 //NavBar
-export * from "./NavbarSection/NavBar";
+export * from "./NavbarSection/NavbarSec";
+export * from "./NavbarSection/NavbarTabsSec";
