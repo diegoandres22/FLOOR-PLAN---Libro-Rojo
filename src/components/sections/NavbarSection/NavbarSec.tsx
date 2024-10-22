@@ -6,7 +6,7 @@ import { LuLogOut } from "react-icons/lu";
 import { FaRegBell } from "react-icons/fa";
 import { NavBarProps } from '@/types';
 
-export const NavbarSec: React.FC<NavBarProps> = ({ isAdmin, locationLabel, userLabel }) => {
+export const NavbarSec: React.FC<NavBarProps> = ({ locationLabel, userLabel }) => {
     return (
         <Navbar shouldHideOnScroll className='bg-white rounded-xl shadow-lg mt-2'>
             <NavbarContent>
