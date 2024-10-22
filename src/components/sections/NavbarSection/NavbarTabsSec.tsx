@@ -3,13 +3,23 @@ import { Extraordinary, ProjectionsScreen, Tasks } from '@/components/elements'
 import { Tabs, Tab, Card, CardBody } from '@nextui-org/react'
 
 export const NavbarTabsSec = () => {
+    const preguntas = [
+        { pregunta: "lorem Table allows you to add a custom component at the end of the table, on the example below we are using a button to load more data.", respuesta: true, comentario: "Abrí 5 minutos tarde" },
+        { pregunta: "lorem Table allows you to add a  at the end of the table, on the example below we are using a button to load more data.?", respuesta: false, comentario: "Cerré antes de tiempo" },
+        { pregunta: "you to add a custom component at the end of the table, on the example below we are using a bu.?", respuesta: true, comentario: "Cerré antes de tiempo" },
+        { pregunta: "lorem Table allows you to add a  at twe are using a button to load more data.", respuesta: false, comentario: "Cerré antes de tiempo" },
+        { pregunta: "lorem Table allows you to add a custom component at the end of the table, on the example below we are using a button to load more data.", respuesta: false, comentario: "Cerré antes de tiempo" },
+        { pregunta: "¿Cerró?", respuesta: true, comentario: "Cerré antes de tiempo" },
+        
+    ];
+
     return (
-        <div className="flex w-full flex-col justify-center items-center mt-4">
+        <div className="flex w-full h-screen flex-col items-center mt-4">
             <Tabs aria-label="Options">
                 <Tab key="proyecciones" title="Proyecciones">
                     <Card>
                         <CardBody>
-                            <ProjectionsScreen></ProjectionsScreen>
+                            <ProjectionsScreen ></ProjectionsScreen>
 
                         </CardBody>
                     </Card>
@@ -17,14 +27,14 @@ export const NavbarTabsSec = () => {
                 <Tab key="tareas" title="Tareas">
                     <Card>
                         <CardBody>
-                            <Tasks/>
+                            <Tasks data={preguntas} />
                         </CardBody>
                     </Card>
                 </Tab>
                 <Tab key="novedades" title="Novedades">
                     <Card>
                         <CardBody>
-                            <Extraordinary/>
+                            <Extraordinary />
                         </CardBody>
                     </Card>
                 </Tab>
