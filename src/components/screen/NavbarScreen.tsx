@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { usePathname } from 'next/navigation';
-import { NavbarTabsSec, NavbarSec } from '../sections/index';
+import { TabsSec, NavbarSec } from '../sections/index';
 
 export const NavbarScreen = () => {
 
@@ -15,7 +15,7 @@ export const NavbarScreen = () => {
     return (
         <div>
             <NavbarSec isAdmin={false} locationLabel={"Maiquetía"} userLabel={"Daisy Lovato "} />
-            <NavbarTabsSec/>
+            <TabsSec/>
         </div>
     )
 }

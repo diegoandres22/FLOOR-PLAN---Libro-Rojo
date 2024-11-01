@@ -1,0 +1,22 @@
+[
+    {
+        "key": "Producto",
+        "label": "Producto"
+    },
+    {
+        "key": "Proyección",
+        "label": "Proyección"
+    },
+    {
+        "key": "Stock",
+        "label": "Stock"
+    },
+    {
+        "key": "Producción",
+        "label": "Producción"
+    },
+    {
+        "key": "Listo",
+        "label": "Listo"
+    }
+]

@@ -2,7 +2,7 @@ import React from 'react'
 import { Extraordinary, ProjectionsScreen, Tasks } from '@/components/elements'
 import { Tabs, Tab, Card, CardBody } from '@nextui-org/react'
 
-export const NavbarTabsSec = () => {
+export const TabsSec = () => {
     const preguntas = [
         { pregunta: "lorem Table allows you to add a custom component at the end of the table, on the example below we are using a button to load more data.", respuesta: true, comentario: "Abrí 5 minutos tarde" },
         { pregunta: "lorem Table allows you to add a  at the end of the table, on the example below we are using a button to load more data.?", respuesta: false, comentario: "Cerré antes de tiempo" },

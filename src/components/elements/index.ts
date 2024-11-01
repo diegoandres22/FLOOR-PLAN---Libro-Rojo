@@ -1,7 +1,8 @@
 //formulario de login
 export * from "./Form"
 
-//formulario de login
+//Proyecciones
 export * from "./Projections"
 export * from "./Tasks"
 export * from "./Extraordinary"
+export * from "./TableProjection"

@@ -1,0 +1,63 @@
+{
+    "tables": [
+      {
+        "title": "Salsas",
+        "items": [
+          {
+            "key": "1",
+            "Producto": "Pico de gallo",
+            "Proyección": 2,
+            "Stock": 23,
+            "Producción": 54,
+            "listo": true
+          },
+          {
+            "key": "2",
+            "Producto": "Salsa de champiñones",
+            "Proyección": 26,
+            "Stock": 21,
+            "Producción": 0,
+            "listo": false
+          },
+          {
+            "key": "3",
+            "Producto": "Salsa de Pizza",
+            "Proyección": 23,
+            "Stock": 0,
+            "Producción": 0,
+            "listo": true
+          }
+        ]
+      },
+      {
+        "title": "Masas",
+        "items": [
+          {
+            "key": "1",
+            "Producto": "Masa básica",
+            "Proyección": 0,
+            "Stock": 2,
+            "Producción": 0,
+            "listo": true
+          },
+          {
+            "key": "2",
+            "Producto": "Masa integral",
+            "Proyección": 0,
+            "Stock": 0,
+            "Producción": 34,
+            "listo": false
+          },
+          {
+            "key": "3",
+            "Producto": "Lamina pizza",
+            "Proyección": 0,
+            "Stock": 0,
+            "Producción": 0,
+            "listo": false
+          }
+        ]
+      }
+    ]
+  }
+  
