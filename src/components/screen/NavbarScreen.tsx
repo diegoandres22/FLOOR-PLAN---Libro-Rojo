@@ -14,7 +14,7 @@ export const NavbarScreen = () => {
 
     return (
         <div>
-            <NavbarSec isAdmin={false} locationLabel={"Maiquetía"} userLabel={"Daisy Lovato "} />
+            <NavbarSec isAdmin={false} locationLabel={"Maiquetía"} userLabel={"Daisy Lovato"} />
             <TabsSec/>
         </div>
     )
