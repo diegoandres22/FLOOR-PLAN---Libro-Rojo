@@ -2,12 +2,13 @@
 import React, { useState } from 'react'
 import { Extraordinary, ProjectionsScreen, Tasks } from '@/components/elements'
 import { Tabs, Tab, Card, CardBody } from '@nextui-org/react'
+import { Key } from 'react';
 
 export const TabsSec = () => {
 
     const [activeTab, setActiveTab] = useState('proyecciones');
 
-    const handleTabChange = (key: any) => {
+    const handleTabChange = (key: Key) => {
         setActiveTab(String(key)); 
     };
 
