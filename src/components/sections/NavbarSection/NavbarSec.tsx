@@ -1,12 +1,15 @@
 import React from 'react'
-import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 import Image from 'next/image';
 import data from "@/../public/images/assets.json";
 import { LuLogOut } from "react-icons/lu";
-import { FaRegBell } from "react-icons/fa";
 import { NavBarProps } from '@/types';
+import { Notifications } from '@/components/elements';
+import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
+import items from "@/../../public/Notifications.json"
 
 export const NavbarSec: React.FC<NavBarProps> = ({ locationLabel, userLabel }) => {
+
+
     return (
         <Navbar shouldHideOnScroll className='bg-white rounded-xl shadow-lg mt-2'>
             <NavbarContent>
@@ -27,9 +30,9 @@ export const NavbarSec: React.FC<NavBarProps> = ({ locationLabel, userLabel }) =
             </NavbarContent>
 
             <NavbarContent justify="end" className='font-bold'>
-                <Link href="#" size="lg" className='sm:flex text-lg sm:text-2xl text-black'>
-                    <FaRegBell />
-                </Link>
+
+                <Notifications items={items} />
+
                 <Link href="#" size="lg" className='sm:flex text-lg sm:text-2xl text-black'>
                     <LuLogOut />
                 </Link>
@@ -38,3 +41,5 @@ export const NavbarSec: React.FC<NavBarProps> = ({ locationLabel, userLabel }) =
         </Navbar>
     )
 }
+
+

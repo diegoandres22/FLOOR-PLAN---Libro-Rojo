@@ -1,0 +1,30 @@
+[
+    {
+        "key": 1,
+        "label": "Hoy se cierra a las 11",
+        "description": "Cerramos antes para hacer limpieza full",
+        "fecha": "10:30 AM, 2024-11-05",
+        "isRead": false
+    },
+    {
+        "key": 2,
+        "label": "Cargar inventario mensual",
+        "description": "No olvidarse subir inventario mensual",
+        "fecha": "2:30 PM, 2024-21-04",
+        "isRead": true
+    },
+    {
+        "key": 3,
+        "label": "Recordar documentación",
+        "description": "Solicitar documentación a los nuevos ingreesos",
+        "fecha": "01: 30 AM, 2024-01-04",
+        "isRead": false
+    },
+    {
+        "key": 4,
+        "label": "Pasar Reporte de ventas",
+        "description": "Completar formulario para estimación de ventas semanales para el mes de diciembre",
+        "fecha": "12: 30 AM, 2024-15-03",
+        "isRead": true
+    }
+]
