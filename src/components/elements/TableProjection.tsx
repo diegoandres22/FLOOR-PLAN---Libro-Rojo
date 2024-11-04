@@ -12,6 +12,7 @@ export const TableProjection: React.FC<VariosProps> = ({ title, rows }) => {
     return (
         <div className='flex flex-col items-center font-bold'>
             <h5>{title}</h5>
+            {/* <div className="flex w-20 h-4 bg-black"></div> */}
             <Table aria-label={`Table of ${title}`}>
                 <TableHeader columns={columns}>
                     {(column) => <TableColumn className={columnClassNames} key={column.key}>{column.label}</TableColumn>}
@@ -20,15 +21,15 @@ export const TableProjection: React.FC<VariosProps> = ({ title, rows }) => {
                     {(item) => (
                         <TableRow key={item.key}>
                             {/* Producto  */}
-                            <TableCell className='w-52 font-semibold' >{item.Producto}</TableCell>
+                            <TableCell className='sm:w-52 flex w-20 h-auto sm:font-semibold' >{item.Producto}</TableCell>
 
                             {/* Proyección  */}
                             <TableCell >
-                                <div className="flex w-full ">
+                                <div className="flex w-full justify-end">
                                     <Input
                                         variant="bordered"
                                         defaultValue={validate0(item.Proyección)}
-                                        className={`max-w-16 m-auto ${item.Proyección > 0 ? 'bg-warning rounded-xl ' : ''
+                                        className={`sm:max-w-16 sm:min-w-14 min-w-10 max-w-12 sm:m-auto  ${item.Proyección > 0 ? 'bg-warning rounded-xl ' : ''
                                             }`} />
                                 </div>
                             </TableCell>
@@ -38,7 +39,7 @@ export const TableProjection: React.FC<VariosProps> = ({ title, rows }) => {
                                     <Input
                                         variant="bordered"
                                         defaultValue={validate0(item.Stock)}
-                                        className={`max-w-16 m-auto ${item.Stock > 0 ? 'bg-warning rounded-xl ' : ''
+                                        className={`sm:max-w-16 sm:min-w-14 min-w-10 max-w-12 m-auto ${item.Stock > 0 ? 'bg-warning rounded-xl ' : ''
                                             }`} />
                                 </div>
                             </TableCell>
@@ -50,7 +51,7 @@ export const TableProjection: React.FC<VariosProps> = ({ title, rows }) => {
                                         variant="bordered"
                                         defaultValue={item.Producción > 0 ? item.Producción.toString() : undefined}
                                         placeholder={produccion(item.Producción, item.Proyección, item.Stock)}
-                                        className={`max-w-16 m-auto ${item.Producción > 0 ? 'bg-warning rounded-xl' : 'text-gray-400'}`}
+                                        className={`sm:max-w-16 sm:min-w-14 min-w-10 max-w-12 m-auto ${item.Producción > 0 ? 'bg-warning rounded-xl' : 'text-gray-400'}`}
                                     />
                                 </div>
                             </TableCell>

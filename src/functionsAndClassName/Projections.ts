@@ -1,7 +1,7 @@
 
 
 
-export const columnClassNames = 'text-lg font-semibold';
+export const columnClassNames = 'sm:text-lg sm:font-semibold';
 
 
 

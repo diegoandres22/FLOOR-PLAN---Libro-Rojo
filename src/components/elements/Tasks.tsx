@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Checkbox } from '@nextui-org/react';
-import { BiCommentDetail } from "react-icons/bi";
 import { columnClassNames } from '@/functionsAndClassName';
+import { ModalComent } from './ModalComent';
 
 type Question = {
     pregunta: string;
@@ -16,7 +16,7 @@ type TasksProps = {
 };
 
 export const Tasks: React.FC<TasksProps> = ({ data }) => {
-    
+
 
     return (
         <Table aria-label="Tabla de preguntas y respuestas" isStriped removeWrapper>
@@ -31,8 +31,8 @@ export const Tasks: React.FC<TasksProps> = ({ data }) => {
                         <TableCell>{item.pregunta}</TableCell>
                         <TableCell >
                             <div className="flex text-xl opacity-60 justify-center ">
+                                <ModalComent></ModalComent>
 
-                                <BiCommentDetail />
                             </div>
 
                         </TableCell>
