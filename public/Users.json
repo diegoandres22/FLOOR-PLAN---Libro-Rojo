@@ -1,10 +1,12 @@
 [
     {
         "username": "Daisy Lovato",
+        "store": "Maiquetía",
         "role": "manager"
     },
     {
         "username": "Victor Sardinha",
+        "store": "all",
         "role": "admin"
     }
 ]

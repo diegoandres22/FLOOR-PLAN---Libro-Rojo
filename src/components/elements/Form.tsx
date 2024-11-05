@@ -1,24 +1,30 @@
 'use client'
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { loguear } from '@/redux/slices/loginSlice';
+import { useDispatch } from 'react-redux';
+import items from "@/../../public/Users.json"
+
 
 export const Form = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const router = useRouter();
+    const dispatch = useDispatch();
 
     const handleLogin = (event: { preventDefault: () => void; }) => {
         event.preventDefault();
 
-        if (username === 'gerente' && password === '123') {
-            
-            router.push('/tienda');
-        }
-        if (username === 'admin' && password === '123') {
-            
-            router.push('/admin');
+        if (username === "gerente" && password === "123") {
+
+            dispatch(loguear(items[0]));
+            router.push("/tienda");
+        } else if (username === "admin" && password === "123") {
+
+            dispatch(loguear(items[1]));
+            router.push("/admin");
         } else {
-            alert('Credenciales incorrectas. Inténtalo de nuevo.');
+            alert("Credenciales incorrectas. Inténtalo de nuevo.");
         }
     };
 

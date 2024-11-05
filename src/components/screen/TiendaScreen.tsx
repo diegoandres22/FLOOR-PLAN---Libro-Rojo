@@ -14,7 +14,7 @@ export const TiendaScreen = () => {
 
     return (
         <div>
-            <NavbarSec isAdmin={false} locationLabel={"Maiquetía"} userLabel={"Daisy Lovato"} />
+            <NavbarSec  />
             <TabsSec/>
         </div>
     )
