@@ -53,30 +53,6 @@ export const TabsSec = () => {
                     )}
                 </Tab>
             </Tabs>
-            {/* <Tabs aria-label="Options">
-                <Tab key="proyecciones" title="Proyecciones">
-                    <Card>
-                        <CardBody>
-                            <ProjectionsScreen ></ProjectionsScreen>
-
-                        </CardBody>
-                    </Card>
-                </Tab>
-                <Tab key="tareas" title="Tareas">
-                    <Card>
-                        <CardBody>
-                            <Tasks data={preguntas} />
-                        </CardBody>
-                    </Card>
-                </Tab>
-                <Tab key="novedades" title="Novedades">
-                    <Card>
-                        <CardBody>
-                            <Extraordinary />
-                        </CardBody>
-                    </Card>
-                </Tab>
-            </Tabs> */}
         </div>
     )
 }

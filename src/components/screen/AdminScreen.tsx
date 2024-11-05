@@ -1,10 +1,10 @@
 'use client'
 
 import React from 'react'
+import { NavbarSec } from '../sections'
 import { usePathname } from 'next/navigation';
-import { TabsSec, NavbarSec } from '../sections/index';
 
-export const NavbarScreen = () => {
+export default function AdminScreen() {
 
     const pathname = usePathname();
 
@@ -14,8 +14,8 @@ export const NavbarScreen = () => {
 
     return (
         <div>
-            <NavbarSec isAdmin={false} locationLabel={"Maiquetía"} userLabel={"Daisy Lovato"} />
-            <TabsSec/>
+            <NavbarSec isAdmin={false} locationLabel={"admin"} userLabel={"victor"} />
+
         </div>
     )
 }

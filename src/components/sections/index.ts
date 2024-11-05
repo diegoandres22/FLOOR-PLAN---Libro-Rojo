@@ -8,4 +8,4 @@ export * from "./LoginSections/TextAndFoot";
 export * from "./NavbarSection/NavbarSec";
 
 // Tabs
-export * from "./TabsSec/TabsSec";
+export * from "./StoresSec/TabsSec";
