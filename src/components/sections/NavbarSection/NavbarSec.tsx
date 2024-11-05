@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import Image from 'next/image';
 import data from "@/../public/images/assets.json";
 import { LuLogOut } from "react-icons/lu";
-import { NavBarProps } from '@/types';
 import { Notifications } from '@/components/elements';
 import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 import items from "@/../../public/Notifications.json"
@@ -11,7 +10,7 @@ import { RootState } from '@/redux/store';
 import { useSelector } from 'react-redux';
 import { DropDown } from '@/components/elements/DropDown';
 
-export const NavbarSec: React.FC<NavBarProps> = () => {
+export const NavbarSec = () => {
 
     const { role, username, store } = useSelector((state: RootState) => state.login);
 
