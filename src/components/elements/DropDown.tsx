@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 export const DropDown = () => {
     const [selected, setSelected] = useState("Tienda");
 
-    const handleSelect = (key: any) => {
+    const handleSelect = (key: string) => {
         setSelected(key);
     };
 
@@ -19,7 +19,7 @@ export const DropDown = () => {
                 <DropdownMenu
                     aria-label="Ubicación"
                     variant="flat"
-                    onAction={(key) => handleSelect(key)}
+                    onAction={(key) => handleSelect(key as string)}
                 >
                     <DropdownItem key="Tiendas">Tienda</DropdownItem>
                     <DropdownItem key="Resumen">Resumen</DropdownItem>

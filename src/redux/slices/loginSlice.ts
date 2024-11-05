@@ -22,7 +22,7 @@ const loginSlice = createSlice({
             state.store = action.payload.store;
             state.role = action.payload.role;
         },
-        desLoguear: (state, _action) => {
+        desLoguear: (state) => {
             state.username = "";
             state.store = "";
             state.role = "";
