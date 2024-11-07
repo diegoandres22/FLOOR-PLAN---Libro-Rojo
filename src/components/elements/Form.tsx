@@ -22,7 +22,7 @@ export const Form = () => {
         } else if (username === "admin" && password === "123") {
 
             dispatch(loguear(items[1]));
-            router.push("/admin");
+            router.push("/admin/tienda");
         } else {
             alert("Credenciales incorrectas. Inténtalo de nuevo.");
         }

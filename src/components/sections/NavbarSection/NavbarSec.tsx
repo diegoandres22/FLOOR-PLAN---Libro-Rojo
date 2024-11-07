@@ -1,25 +1,21 @@
 'use client'
-import React, { useEffect } from 'react'
+
+
+import React from 'react'
 import Image from 'next/image';
 import data from "@/../public/images/assets.json";
-import { LuLogOut } from "react-icons/lu";
-import { Notifications } from '@/components/elements';
-import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 import items from "@/../../public/Notifications.json"
+import { LuLogOut } from "react-icons/lu";
+import { DropDown } from '@/components/elements/DropDown';
 import { RootState } from '@/redux/store';
 import { useSelector } from 'react-redux';
-import { DropDown } from '@/components/elements/DropDown';
+import { Notifications } from '@/components/elements';
+import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
 export const NavbarSec = () => {
 
     const { role, username, store } = useSelector((state: RootState) => state.login);
 
-    useEffect(() => {
-
-        if (role.length < 1) {
-            return
-        };
-    }, [role, store]);
     return (
         <Navbar shouldHideOnScroll className='bg-white rounded-xl shadow-lg mt-2'>
             <NavbarContent>
@@ -45,7 +41,7 @@ export const NavbarSec = () => {
                 {role === "admin" ? "" : <Notifications items={items} />}
 
 
-                <Link href="#" size="lg" className='sm:flex text-lg sm:text-2xl text-black'>
+                <Link href="/" size="lg" className='sm:flex text-xl sm:text-2xl text-red-600' >
                     <LuLogOut />
                 </Link>
 
