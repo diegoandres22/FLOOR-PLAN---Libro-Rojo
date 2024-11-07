@@ -1,26 +1,18 @@
 'use client'
-import React, { useState } from 'react'
-import { Extraordinary, ProjectionsScreen, Tasks } from '@/components/elements'
-import { Tabs, Tab, Card, CardBody } from '@nextui-org/react'
+
 import { Key } from 'react';
+import React, { useState } from 'react'
+import { Tabs, Tab, Card, CardBody } from '@nextui-org/react'
+import { Extraordinary, ProjectionsScreen, Tasks } from '@/components/elements'
+import data from "@/../../public/Checks.json"
 
 export const TabsSec = () => {
 
     const [activeTab, setActiveTab] = useState('proyecciones');
 
     const handleTabChange = (key: Key) => {
-        setActiveTab(String(key)); 
+        setActiveTab(String(key));
     };
-
-    const preguntas = [
-        { pregunta: "lorem Table allows you to add a custom component at the end of the table, on the example below we are using a button to load more data.", respuesta: true, comentario: "Abrí 5 minutos tarde" },
-        { pregunta: "lorem Table allows you to add a  at the end of the table, on the example below we are using a button to load more data.?", respuesta: false, comentario: "Cerré antes de tiempo" },
-        { pregunta: "you to add a custom component at the end of the table, on the example below we are using a bu.?", respuesta: true, comentario: "Cerré antes de tiempo" },
-        { pregunta: "lorem Table allows you to add a  at twe are using a button to load more data.", respuesta: false, comentario: "Cerré antes de tiempo" },
-        { pregunta: "lorem Table allows you to add a custom component at the end of the table, on the example below we are using a button to load more data.", respuesta: false, comentario: "Cerré antes de tiempo" },
-        { pregunta: "¿Cerró?", respuesta: true, comentario: "Cerré antes de tiempo" },
-
-    ];
 
     return (
         <div className="flex w-full h-screen flex-col items-center mt-4">
@@ -28,7 +20,7 @@ export const TabsSec = () => {
                 <Tab key="proyecciones" title="Proyecciones">
                     {activeTab === 'proyecciones' && (
                         <Card>
-                            <CardBody>
+                            <CardBody className='w-screen sm:w-auto'>
                                 <ProjectionsScreen />
                             </CardBody>
                         </Card>
@@ -38,7 +30,7 @@ export const TabsSec = () => {
                     {activeTab === 'tareas' && (
                         <Card>
                             <CardBody>
-                                <Tasks data={preguntas} />
+                                <Tasks data={data} />
                             </CardBody>
                         </Card>
                     )}

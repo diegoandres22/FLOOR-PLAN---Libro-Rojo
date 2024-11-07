@@ -29,17 +29,17 @@ export const TableProjection: React.FC<VariosProps> = ({ title, rows }) => {
                                     <Input
                                         variant="bordered"
                                         defaultValue={validate0(item.Proyección)}
-                                        className={`sm:max-w-16 sm:min-w-14 min-w-10 max-w-12 sm:m-auto  ${item.Proyección > 0 ? 'bg-warning rounded-xl ' : ''
+                                        className={`max-w-16 min-w-14 sm:m-auto  ${item.Proyección > 0 ? 'bg-warning rounded-xl ' : ''
                                             }`} />
                                 </div>
                             </TableCell>
                             {/* Stock  */}
                             <TableCell >
-                                <div className="flex w-full ">
+                                <div className="flex w-full justify-center">
                                     <Input
                                         variant="bordered"
                                         defaultValue={validate0(item.Stock)}
-                                        className={`sm:max-w-16 sm:min-w-14 min-w-10 max-w-12 m-auto ${item.Stock > 0 ? 'bg-warning rounded-xl ' : ''
+                                        className={`max-w-16 min-w-14 m-auto ${item.Stock > 0 ? 'bg-warning rounded-xl ' : ''
                                             }`} />
                                 </div>
                             </TableCell>
@@ -51,7 +51,7 @@ export const TableProjection: React.FC<VariosProps> = ({ title, rows }) => {
                                         variant="bordered"
                                         defaultValue={item.Producción > 0 ? item.Producción.toString() : undefined}
                                         placeholder={produccion(item.Producción, item.Proyección, item.Stock)}
-                                        className={`sm:max-w-16 sm:min-w-14 min-w-10 max-w-12 m-auto ${item.Producción > 0 ? 'bg-warning rounded-xl' : 'text-gray-400'}`}
+                                        className={`max-w-16 min-w-14 m-auto ${item.Producción > 0 ? 'bg-warning rounded-xl' : 'text-gray-400'}`}
                                     />
                                 </div>
                             </TableCell>

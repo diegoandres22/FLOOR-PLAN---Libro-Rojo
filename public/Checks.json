@@ -1,0 +1,80 @@
+[
+    {
+        "pregunta": "Se leyó el libro de novedades",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se realiza recorrido po rlas areas del restaurante para evidencias alguna novedad",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Verificar Whatsapp si hay pedidos pendientes, guardar contacto (donde aplique)",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se verificó el uniforme del personal",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "se verificó el horario de llegada del personal",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se revisa el tanque de agua, verifican Status y se solicita cisterna(de ser necesario)",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se activó el mecanismo de TV, sonido y video",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se reporta apertura",
+        "respuesta": false,
+        "comentario": ""
+    },{
+        "pregunta": "Se realiza inventario inicial y se valida con el de cierre del día anterior",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se revisan faltantes de productos, se resuelven los mismos",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se generan proyecciones y planificacion para el día: Masa, salsas, etc.",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Realizan cambio de tasa del día",
+        "respuesta": false,
+        "comentario": ""
+    },{
+        "pregunta": "Se revisa la limpieza de los baños (calendario de mantenimiento y limpieza o actividades diarias)",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Planificación del turno y posicionamiento( Se llenan las proyecciones del FLOOR PLAN y colocan metas del día )",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Neveras, equipos, sistema están operativos, funcionando bien (se llenan las temperaturas en la lista de verificación de seguridad de los alimentos)",
+        "respuesta": false,
+        "comentario": ""
+    },
+    {
+        "pregunta": "Se revisaron los mesones (Pizzería y producción)(abastecer según la proyección de ventas del FLOOR PLAN)",
+        "respuesta": false,
+        "comentario": ""
+    }
+]

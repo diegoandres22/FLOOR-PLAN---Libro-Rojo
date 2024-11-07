@@ -1,63 +1,168 @@
 {
-    "tables": [
-      {
-        "title": "Salsas",
-        "items": [
-          {
-            "key": "1",
-            "Producto": "Pico de gallo",
-            "Proyección": 2,
-            "Stock": 23,
-            "Producción": 54,
-            "listo": true
-          },
-          {
-            "key": "2",
-            "Producto": "Salsa de champiñones",
-            "Proyección": 26,
-            "Stock": 21,
-            "Producción": 0,
-            "listo": false
-          },
-          {
-            "key": "3",
-            "Producto": "Salsa de Pizza",
-            "Proyección": 23,
-            "Stock": 0,
-            "Producción": 0,
-            "listo": true
-          }
-        ]
-      },
-      {
-        "title": "Masas",
-        "items": [
-          {
-            "key": "1",
-            "Producto": "Masa básica",
-            "Proyección": 0,
-            "Stock": 2,
-            "Producción": 0,
-            "listo": true
-          },
-          {
-            "key": "2",
-            "Producto": "Masa integral",
-            "Proyección": 0,
-            "Stock": 0,
-            "Producción": 34,
-            "listo": false
-          },
-          {
-            "key": "3",
-            "Producto": "Lamina pizza",
-            "Proyección": 0,
-            "Stock": 0,
-            "Producción": 0,
-            "listo": false
-          }
-        ]
-      }
-    ]
-  }
-  
+  "tables": [
+    {
+      "title": "Varios",
+      "items": [
+        {
+          "key": "1",
+          "Producto": "Pico de gallo",
+          "Proyección": 0,
+          "Stock": 23,
+          "Producción": 54,
+          "listo": true
+        },
+        {
+          "key": "2",
+          "Producto": "Salsa de champiñones",
+          "Proyección": 26,
+          "Stock": 21,
+          "Producción": 0,
+          "listo": false
+        },
+        {
+          "key": "3",
+          "Producto": "Cebolla caramelizada",
+          "Proyección": 23,
+          "Stock": 0,
+          "Producción": 0,
+          "listo": true
+        },
+        {
+          "key": "4",
+          "Producto": "Pecorino",
+          "Proyección": 0,
+          "Stock": 23,
+          "Producción": 54,
+          "listo": true
+        },
+        {
+          "key": "5",
+          "Producto": "Set de vegetales",
+          "Proyección": 26,
+          "Stock": 21,
+          "Producción": 0,
+          "listo": false
+        },
+        {
+          "key": "6",
+          "Producto": "Crotones",
+          "Proyección": 23,
+          "Stock": 0,
+          "Producción": 0,
+          "listo": true
+        }
+      ]
+    },
+    {
+      "title": "Salsas",
+      "items": [
+        {
+          "key": "1",
+          "Producto": "Mayosweet",
+          "Proyección": 0,
+          "Stock": 2,
+          "Producción": 0,
+          "listo": true
+        },
+        {
+          "key": "2",
+          "Producto": "Miel mostaza",
+          "Proyección": 0,
+          "Stock": 0,
+          "Producción": 34,
+          "listo": false
+        },
+        {
+          "key": "3",
+          "Producto": "Ranchera",
+          "Proyección": 0,
+          "Stock": 0,
+          "Producción": 0,
+          "listo": false
+        },
+        {
+          "key": "4",
+          "Producto": "BBQ",
+          "Proyección": 0,
+          "Stock": 2,
+          "Producción": 0,
+          "listo": true
+        },
+        {
+          "key": "5",
+          "Producto": "Ajo Perejil",
+          "Proyección": 2,
+          "Stock": 0,
+          "Producción": 34,
+          "listo": false
+        },
+        {
+          "key": "6",
+          "Producto": "Tartara",
+          "Proyección": 12,
+          "Stock": 0,
+          "Producción": 0,
+          "listo": false
+        }
+      ]
+    },
+    {
+      "title": "Masas",
+      "items": [
+        {
+          "key": "1",
+          "Producto": "Pequeña",
+          "Proyección": 0,
+          "Stock": 2,
+          "Producción": 0,
+          "listo": true
+        },
+        {
+          "key": "2",
+          "Producto": "Mediana ",
+          "Proyección": 0,
+          "Stock": 0,
+          "Producción": 34,
+          "listo": false
+        },
+        {
+          "key": "3",
+          "Producto": "Grande",
+          "Proyección": 0,
+          "Stock": 0,
+          "Producción": 0,
+          "listo": false
+        },
+        {
+          "key": "4",
+          "Producto": "Wrap",
+          "Proyección": 20,
+          "Stock": 2,
+          "Producción": 0,
+          "listo": true
+        }
+      ]
+    },
+    {
+      "title": "Tocinetas",
+      "items": [
+        {
+          "key": "1",
+          "Producto": "Crispy",
+          "Proyección": 0,
+          "Stock": 2,
+          "Producción": 0,
+          "listo": true
+        },
+        {
+          "key": "2",
+          "Producto": "Horneada ",
+          "Proyección": 10,
+          "Stock": 0,
+          "Producción": 34,
+          "listo": false
+        }
+      ]
+    }
+  ]
+}
