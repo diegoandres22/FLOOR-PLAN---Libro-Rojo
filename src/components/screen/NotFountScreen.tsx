@@ -3,8 +3,7 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 import data from "@/../public/images/assets.json";
-import { useRouter } from 'next/navigation';
-import { usePathname } from 'next/navigation'; 
+import { useRouter, usePathname } from 'next/navigation';
 
 export const NotFountScreen = () => {
   const router = useRouter();

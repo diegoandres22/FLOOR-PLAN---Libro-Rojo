@@ -6,10 +6,9 @@ import Image from 'next/image';
 import data from "@/../public/images/assets.json";
 import items from "@/../../public/Notifications.json"
 import { LuLogOut } from "react-icons/lu";
-import { DropDown } from '@/components/elements/DropDown';
 import { RootState } from '@/redux/store';
 import { useSelector } from 'react-redux';
-import { Notifications } from '@/components/elements';
+import { DropDown, Notifications } from '@/components/elements';
 import { Navbar, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
 export const NavbarSec = () => {

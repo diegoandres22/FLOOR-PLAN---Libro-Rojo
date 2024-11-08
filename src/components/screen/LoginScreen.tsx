@@ -11,7 +11,10 @@ export const Login = () => {
       <TitleAndIcons />
       <div className="flex absolute h-[280px] w-[320px] m-auto inset-0  bg-black/40 rounded-3xl backdrop-blur-sm "> </div>
       <FormLogin />
-      <TextAndFoot/>
+      <TextAndFoot />
+      <p className="text-center text-white mb-4 text-xs z-50">
+        Para más información comunícate con <a href="mailto:it@donmanuelgrill.com" className="text-blue-400 ">Tecnología</a> del grupo DMG.
+      </p>
     </div>
 
   )

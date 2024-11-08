@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { usePathname } from 'next/navigation';
-import { TabsSec, NavbarSec } from '../sections/index';
+import { TabsSec, NavbarSec } from '../sections';
 
 export const TiendaScreen = () => {
 

@@ -1,4 +1,4 @@
-
+'use client'
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem } from "@nextui-org/react";
 import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
