@@ -7,8 +7,26 @@
     },
     {
       "ID": 2,
-      "Image": "/images/logo.png",
+      "Image": "/images/dmgLogo.png",
       "alt": "Don Manuel Grill",
+      "url": "404"
+    },
+    {
+      "ID": 3,
+      "Image": "/images/makaiLogo.png",
+      "alt": "Makai",
+      "url": "404"
+    },
+    {
+      "ID": 4,
+      "Image": "/images/makaiYdmg.png",
+      "alt": "DMG & Makai",
+      "url": "404"
+    },
+    {
+      "ID": 5,
+      "Image": "/images/makaiYdmg.png",
+      "alt": "COFFE Macuto",
       "url": "404"
     }
   ]

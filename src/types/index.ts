@@ -7,4 +7,8 @@ export * from "./NavBarProps"
 export * from "./ProjectionsTables"
 
 
+//props cards
+export * from "./CardsTiendas"
+
+
 
