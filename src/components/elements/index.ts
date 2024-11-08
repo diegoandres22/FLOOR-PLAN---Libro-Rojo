@@ -10,3 +10,7 @@ export * from "./TableProjection"
 //navbar
 export * from "./Notifications"
 export * from "./DropDown"
+
+
+//tienda
+export * from "./CardsTienda"

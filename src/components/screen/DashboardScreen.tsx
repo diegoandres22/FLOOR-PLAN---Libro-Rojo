@@ -3,7 +3,7 @@ import { Refresh, ViewCards } from '../sections'
 
 export const DashboardScreen = () => {
     return (
-        <div className='pt-3 h-[88vh]'>
+        <div className='py-3 '>
             <Refresh />
             <ViewCards />
         </div>
