@@ -13,6 +13,9 @@ const config: Config = {
     extend: {
       fontFamily: {
         dmg: ["Aleo", 'roman'],
+        lapiz: ["Indie Flower", 'Static'],
+
+
 
       },
       colors: {
