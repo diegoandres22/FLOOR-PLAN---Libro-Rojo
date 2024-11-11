@@ -41,7 +41,7 @@ export const IconAndState: React.FC<IconAndStateProps> = ({ tienda, estado, ubi 
 
             <div className="flex flex-col w-3/4">
                 <div className="flex justify-end items-center gap-1">
-                    <p className='sm:hidden text-xs font-semibold'>{tooltipText}</p>
+                    <p className='lg:hidden text-xs font-semibold'>{tooltipText}</p>
                     <Tooltip content={tooltipText} showArrow={true} color='foreground'>
                         <span className={`w-4 h-4 ${color} rounded-full`}></span>
                     </Tooltip>

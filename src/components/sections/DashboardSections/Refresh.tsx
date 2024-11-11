@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react';
+import { Link } from "@nextui-org/react";
 import { IoMdRefresh } from 'react-icons/io';
 
 export const Refresh: React.FC = () => {
@@ -11,16 +12,18 @@ export const Refresh: React.FC = () => {
 
         setTimeout(() => {
             setIsRotating(false);
-        }, 3000);
+        }, 2000);
 
     };
 
     return (
-        <div className='w-full text-2xl'>
-            <IoMdRefresh
-                onClick={handleClick}
-                className={`cursor-pointer ml-[93%] ${isRotating ? 'animate-spin ' : ''}`}
-            />
+        <div className='w-full '>
+            <Link href="#" color="foreground" className=' text-2xl ml-[93%]'>
+                <IoMdRefresh
+                    onClick={handleClick}
+                    className={` ${isRotating ? 'animate-spin ' : ''}`}
+                />
+            </Link>
         </div>
     );
 };
