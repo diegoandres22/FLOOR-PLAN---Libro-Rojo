@@ -8,9 +8,9 @@ export const ProyectionsAndFaltants: React.FC<ProyectionsAndFaltantsProps> = ({
     projections,
     faltants,
 }) => {
-    // Dividimos el array de proyecciones en dos columnas
-    const firstColumn = projections.slice(0, 5);
-    const secondColumn = projections.slice(5, 10);
+
+    const firstColumn = projections.slice(0, 6);
+    const secondColumn = projections.slice(6, 12);
 
     return (
         <div className='w-full flex mt-1 justify-between text-sm border-1 border-black/20 rounded-lg'>

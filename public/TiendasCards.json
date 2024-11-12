@@ -9,6 +9,8 @@
         "ultVez": "12/4/2024",
         "aceiteBoo": true,
         "inventarioBoo": false,
+        "color": 1,
+        "percentage": 24,
         "projections": [
             {
                 "proyeccion": "Lechuga",
@@ -34,6 +36,16 @@
                 "proyeccion": "Queso Picorino",
                 "sistema": 55,
                 "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
             },
             {
                 "proyeccion": "Hamb. carne Peq",
@@ -78,6 +90,8 @@
         "ultVez": "22/4/2024",
         "aceiteBoo": false,
         "inventarioBoo": false,
+        "color": 2,
+        "percentage": 44,
         "projections": [
             {
                 "proyeccion": "Lechuga",
@@ -103,6 +117,16 @@
                 "proyeccion": "Queso Picorino",
                 "sistema": 55,
                 "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
             },
             {
                 "proyeccion": "Hamb. carne Peq",
@@ -147,6 +171,8 @@
         "ultVez": "11/4/2024",
         "aceiteBoo": true,
         "inventarioBoo": true,
+        "color": 3,
+        "percentage": 74,
         "projections": [
             {
                 "proyeccion": "Lechuga",
@@ -172,6 +198,16 @@
                 "proyeccion": "Queso Picorino",
                 "sistema": 55,
                 "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
             },
             {
                 "proyeccion": "Hamb. carne Peq",
@@ -216,6 +252,8 @@
         "ultVez": "10/4/2024",
         "aceiteBoo": false,
         "inventarioBoo": true,
+        "color": 4,
+        "percentage": 0,
         "projections": [
             {
                 "proyeccion": "Lechuga",
@@ -241,6 +279,16 @@
                 "proyeccion": "Queso Picorino",
                 "sistema": 55,
                 "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
             },
             {
                 "proyeccion": "Hamb. carne Peq",
@@ -285,6 +333,8 @@
         "ultVez": "09/4/2024",
         "aceiteBoo": true,
         "inventarioBoo": true,
+        "color": 1,
+        "percentage": 14,
         "projections": [
             {
                 "proyeccion": "Lechuga",
@@ -310,6 +360,16 @@
                 "proyeccion": "Queso Picorino",
                 "sistema": 55,
                 "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
             },
             {
                 "proyeccion": "Hamb. carne Peq",

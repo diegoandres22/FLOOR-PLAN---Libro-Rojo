@@ -15,7 +15,7 @@ export const IconAndState: React.FC<IconAndStateProps> = ({ tienda, estado, ubi 
 
     return (
         <div className='flex w-full'>
-            <div className="w-1/4 flex justify-center ">
+            <div className="w-1/4 flex justify-center max-h-10 ">
 
                 {tienda === "dmg" || tienda === "macuto" ? <Image
                     src={data[1].Image}
@@ -26,8 +26,8 @@ export const IconAndState: React.FC<IconAndStateProps> = ({ tienda, estado, ubi 
                     : tienda === "makai" ? <Image
                         src={data[2].Image}
                         alt={data[2].alt}
-                        width={70}
-                        height={50}
+                        width={80}
+                        height={0}
                         className='rounded-lg '
                     />
                         : <Image

@@ -27,6 +27,10 @@ export interface ManagersProps {
     apertura: string;
     cierre: string;
 }
+export interface ProgressBarProps {
+    percentage: number;
+    color: number;
+}
 
 export interface TiendaData {
     id: number;
@@ -40,4 +44,6 @@ export interface TiendaData {
     inventarioBoo: boolean;
     projections: ProjectionData[];
     faltants: FaltantData[];
+    percentage: number;
+    color: number;
 }

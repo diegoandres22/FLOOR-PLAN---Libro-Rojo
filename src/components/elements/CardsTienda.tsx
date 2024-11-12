@@ -1,9 +1,9 @@
 import React from 'react';
-import { ChecksCard, IconAndState, Managers, ProyectionsAndFaltants } from './Card\'sElements';
+import { ChecksCard, IconAndState, Managers, ProgressBar, ProyectionsAndFaltants } from './Card\'sElements';
 import { TiendaData } from '@/types';
 
 
-export const CardsTienda: React.FC<TiendaData> = ({ alt, estado, ubi, apertura, cierre, inventarioBoo, aceiteBoo, ultVez, faltants, projections }) => {
+export const CardsTienda: React.FC<TiendaData> = ({ alt, estado, ubi, apertura, cierre, inventarioBoo, aceiteBoo, ultVez, faltants, projections, color, percentage }) => {
 
 
     return (
@@ -12,6 +12,7 @@ export const CardsTienda: React.FC<TiendaData> = ({ alt, estado, ubi, apertura, 
             <Managers apertura={apertura} cierre={cierre} />
             <ProyectionsAndFaltants projections={projections} faltants={faltants} />
             <ChecksCard ultVez={ultVez} aceite={aceiteBoo} inventario={inventarioBoo} />
+            <ProgressBar percentage={percentage} color={color} ></ProgressBar>
         </div>
     );
 };
