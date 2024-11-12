@@ -11,6 +11,7 @@ interface FaltantData {
 }
 export interface IconAndStateProps {
     tienda: string;
+    name: string;
     estado: string;
     ubi: string;
 }
@@ -34,16 +35,17 @@ export interface ProgressBarProps {
 
 export interface TiendaData {
     id: number;
+    name: string;
     ubi: string;
     alt: string;
-    estado: string;
-    apertura: string;
-    cierre: string;
-    aceiteBoo: boolean;
-    ultVez: string;
-    inventarioBoo: boolean;
+    state: string;
+    manager1: string;
+    manager2: string;
+    oilBoo: boolean;
+    oilLast: string;
+    inventoryBoo: boolean;
     projections: ProjectionData[];
-    faltants: FaltantData[];
+    outOfStock: FaltantData[];
     percentage: number;
     color: number;
 }

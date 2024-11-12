@@ -1,176 +1,15 @@
 [
     {
         "id": 1,
-        "ubi": "La Guaira",
-        "alt": "dmg",
-        "estado": "abierto",
-        "apertura": "Diego",
-        "cierre": "Angel",
-        "ultVez": "12/4/2024",
-        "aceiteBoo": true,
-        "inventarioBoo": false,
-        "color": 1,
-        "percentage": 24,
-        "projections": [
-            {
-                "proyeccion": "Lechuga",
-                "sistema": 12,
-                "producir": 12
-            },
-            {
-                "proyeccion": "Arroz con misura",
-                "sistema": 10,
-                "producir": 8
-            },
-            {
-                "proyeccion": "Algas",
-                "sistema": 40,
-                "producir": 42
-            },
-            {
-                "proyeccion": "Pico de gallo",
-                "sistema": 14,
-                "producir": 14
-            },
-            {
-                "proyeccion": "Queso Picorino",
-                "sistema": 55,
-                "producir": 56
-            },
-            {
-                "proyeccion": "Queso Muzzarella",
-                "sistema": 12,
-                "producir": 12
-            },
-            {
-                "proyeccion": "Laminas wrap",
-                "sistema": 18,
-                "producir": 17
-            },
-            {
-                "proyeccion": "Hamb. carne Peq",
-                "sistema": 35,
-                "producir": 37
-            },
-            {
-                "proyeccion": "Hamb. carne gran",
-                "sistema": 10,
-                "producir": 8
-            },
-            {
-                "proyeccion": "Hamb. pollo Peq",
-                "sistema": 40,
-                "producir": 42
-            },
-            {
-                "proyeccion": "Hamb. pollo Gran",
-                "sistema": 14,
-                "producir": 14
-            },
-            {
-                "proyeccion": "Camarones",
-                "sistema": 85,
-                "producir": 81
-            }
-        ],
-        "faltants": [
-            {
-                "id": 1,
-                "nombre": "Pepsi Light"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "ubi": "La Guaira",
-        "alt": "makai",
-        "estado": "cerrado",
-        "apertura": "Yaniret",
-        "cierre": "Carmen",
-        "ultVez": "22/4/2024",
-        "aceiteBoo": false,
-        "inventarioBoo": false,
-        "color": 2,
-        "percentage": 44,
-        "projections": [
-            {
-                "proyeccion": "Lechuga",
-                "sistema": 12,
-                "producir": 12
-            },
-            {
-                "proyeccion": "Arroz con misura",
-                "sistema": 10,
-                "producir": 8
-            },
-            {
-                "proyeccion": "Algas",
-                "sistema": 40,
-                "producir": 42
-            },
-            {
-                "proyeccion": "Pico de gallo",
-                "sistema": 14,
-                "producir": 14
-            },
-            {
-                "proyeccion": "Queso Picorino",
-                "sistema": 55,
-                "producir": 56
-            },
-            {
-                "proyeccion": "Queso Muzzarella",
-                "sistema": 12,
-                "producir": 12
-            },
-            {
-                "proyeccion": "Laminas wrap",
-                "sistema": 18,
-                "producir": 17
-            },
-            {
-                "proyeccion": "Hamb. carne Peq",
-                "sistema": 35,
-                "producir": 37
-            },
-            {
-                "proyeccion": "Hamb. carne gran",
-                "sistema": 10,
-                "producir": 8
-            },
-            {
-                "proyeccion": "Hamb. pollo Peq",
-                "sistema": 40,
-                "producir": 42
-            },
-            {
-                "proyeccion": "Hamb. pollo Gran",
-                "sistema": 14,
-                "producir": 14
-            },
-            {
-                "proyeccion": "Camarones",
-                "sistema": 85,
-                "producir": 81
-            }
-        ],
-        "faltants": [
-            {
-                "id": 1,
-                "nombre": " "
-            }
-        ]
-    },
-    {
-        "id": 4,
+        "name": "COFFE Macuto",
         "ubi": "Macuto",
-        "alt": "macuto",
-        "estado": "abierto",
-        "apertura": "Manuel",
-        "cierre": "",
-        "ultVez": "11/4/2024",
-        "aceiteBoo": true,
-        "inventarioBoo": true,
+        "alt": "dmg",
+        "state": "abierto",
+        "manager1": "Manuel",
+        "manager2": "",
+        "oilLast": "11/4/2024",
+        "oilBoo": true,
+        "inventoryBoo": true,
         "color": 3,
         "percentage": 74,
         "projections": [
@@ -235,7 +74,7 @@
                 "producir": 81
             }
         ],
-        "faltants": [
+        "outOfStock": [
             {
                 "id": 1,
                 "nombre": "Servilletas"
@@ -243,17 +82,18 @@
         ]
     },
     {
-        "id": 3,
-        "ubi": "Caribe",
-        "alt": "all",
-        "estado": "n/a",
-        "apertura": "Daisy",
-        "cierre": "-",
-        "ultVez": "10/4/2024",
-        "aceiteBoo": false,
-        "inventarioBoo": true,
-        "color": 4,
-        "percentage": 0,
+        "id": 2,
+        "name": "Don Manuel Grill",
+        "ubi": "La Guaira",
+        "alt": "dmg",
+        "state": "abierto",
+        "manager1": "Diego",
+        "manager2": "Angel",
+        "oilLast": "12/4/2024",
+        "oilBoo": true,
+        "inventoryBoo": false,
+        "color": 1,
+        "percentage": 24,
         "projections": [
             {
                 "proyeccion": "Lechuga",
@@ -316,23 +156,106 @@
                 "producir": 81
             }
         ],
-        "faltants": [
+        "outOfStock": [
             {
                 "id": 1,
-                "nombre": ""
+                "nombre": "Pepsi Light"
             }
         ]
     },
     {
-        "id": 5,
+        "id": 3,
+        "name": "Makai",
+        "ubi": "La Guaira",
+        "alt": "makai",
+        "state": "cerrado",
+        "manager1": "Yaniret",
+        "manager2": "Carmen",
+        "oilLast": "22/4/2024",
+        "oilBoo": false,
+        "inventoryBoo": false,
+        "color": 2,
+        "percentage": 44,
+        "projections": [
+            {
+                "proyeccion": "Lechuga",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Arroz con misura",
+                "sistema": 10,
+                "producir": 8
+            },
+            {
+                "proyeccion": "Algas",
+                "sistema": 40,
+                "producir": 42
+            },
+            {
+                "proyeccion": "Pico de gallo",
+                "sistema": 14,
+                "producir": 14
+            },
+            {
+                "proyeccion": "Queso Picorino",
+                "sistema": 55,
+                "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
+            },
+            {
+                "proyeccion": "Hamb. carne Peq",
+                "sistema": 35,
+                "producir": 37
+            },
+            {
+                "proyeccion": "Hamb. carne gran",
+                "sistema": 10,
+                "producir": 8
+            },
+            {
+                "proyeccion": "Hamb. pollo Peq",
+                "sistema": 40,
+                "producir": 42
+            },
+            {
+                "proyeccion": "Hamb. pollo Gran",
+                "sistema": 14,
+                "producir": 14
+            },
+            {
+                "proyeccion": "Camarones",
+                "sistema": 85,
+                "producir": 81
+            }
+        ],
+        "outOfStock": [
+            {
+                "id": 1,
+                "nombre": " "
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Don Manuel Grill",
         "ubi": "Maiquetía",
         "alt": "dmg",
-        "estado": "abierto",
-        "apertura": "Fran",
-        "cierre": "",
-        "ultVez": "09/4/2024",
-        "aceiteBoo": true,
-        "inventarioBoo": true,
+        "state": "abierto",
+        "manager1": "Fran",
+        "manager2": "",
+        "oilLast": "09/4/2024",
+        "oilBoo": true,
+        "inventoryBoo": true,
         "color": 1,
         "percentage": 14,
         "projections": [
@@ -397,10 +320,174 @@
                 "producir": 81
             }
         ],
-        "faltants": [
+        "outOfStock": [
             {
                 "id": 1,
                 "nombre": "Cheescake"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Don Manuel Grill",
+        "ubi": "Caribe",
+        "alt": "dmg",
+        "state": "Próximamente",
+        "manager1": "Daisy",
+        "manager2": "-",
+        "oilLast": "10/4/2024",
+        "oilBoo": false,
+        "inventoryBoo": true,
+        "color": 4,
+        "percentage": 0,
+        "projections": [
+            {
+                "proyeccion": "Lechuga",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Arroz con misura",
+                "sistema": 10,
+                "producir": 8
+            },
+            {
+                "proyeccion": "Algas",
+                "sistema": 40,
+                "producir": 42
+            },
+            {
+                "proyeccion": "Pico de gallo",
+                "sistema": 14,
+                "producir": 14
+            },
+            {
+                "proyeccion": "Queso Picorino",
+                "sistema": 55,
+                "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
+            },
+            {
+                "proyeccion": "Hamb. carne Peq",
+                "sistema": 35,
+                "producir": 37
+            },
+            {
+                "proyeccion": "Hamb. carne gran",
+                "sistema": 10,
+                "producir": 8
+            },
+            {
+                "proyeccion": "Hamb. pollo Peq",
+                "sistema": 40,
+                "producir": 42
+            },
+            {
+                "proyeccion": "Hamb. pollo Gran",
+                "sistema": 14,
+                "producir": 14
+            },
+            {
+                "proyeccion": "Camarones",
+                "sistema": 85,
+                "producir": 81
+            }
+        ],
+        "outOfStock": [
+            {
+                "id": 1,
+                "nombre": ""
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Makai",
+        "ubi": "Caribe",
+        "alt": "makai",
+        "state": "Próximamente",
+        "manager1": "Daisy",
+        "manager2": "-",
+        "oilLast": "10/4/2024",
+        "oilBoo": false,
+        "inventoryBoo": true,
+        "color": 4,
+        "percentage": 0,
+        "projections": [
+            {
+                "proyeccion": "Lechuga",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Arroz con misura",
+                "sistema": 10,
+                "producir": 8
+            },
+            {
+                "proyeccion": "Algas",
+                "sistema": 40,
+                "producir": 42
+            },
+            {
+                "proyeccion": "Pico de gallo",
+                "sistema": 14,
+                "producir": 14
+            },
+            {
+                "proyeccion": "Queso Picorino",
+                "sistema": 55,
+                "producir": 56
+            },
+            {
+                "proyeccion": "Queso Muzzarella",
+                "sistema": 12,
+                "producir": 12
+            },
+            {
+                "proyeccion": "Laminas wrap",
+                "sistema": 18,
+                "producir": 17
+            },
+            {
+                "proyeccion": "Hamb. carne Peq",
+                "sistema": 35,
+                "producir": 37
+            },
+            {
+                "proyeccion": "Hamb. carne gran",
+                "sistema": 10,
+                "producir": 8
+            },
+            {
+                "proyeccion": "Hamb. pollo Peq",
+                "sistema": 40,
+                "producir": 42
+            },
+            {
+                "proyeccion": "Hamb. pollo Gran",
+                "sistema": 14,
+                "producir": 14
+            },
+            {
+                "proyeccion": "Camarones",
+                "sistema": 85,
+                "producir": 81
+            }
+        ],
+        "outOfStock": [
+            {
+                "id": 1,
+                "nombre": ""
             }
         ]
     }
