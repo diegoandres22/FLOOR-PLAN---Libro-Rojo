@@ -1,21 +1,8 @@
+
+
 import React from 'react';
+import { ProyectionsAndFaltantsProps } from '@/types';
 
-interface ProjectionData {
-    id: number;
-    proyeccion: string;
-    sistema: number;
-    producir: number;
-}
-
-interface FaltantData {
-    id: number;
-    nombre: string;
-}
-
-interface ProyectionsAndFaltantsProps {
-    projections: ProjectionData[];
-    faltants: FaltantData[];
-}
 
 export const ProyectionsAndFaltants: React.FC<ProyectionsAndFaltantsProps> = ({
     projections,
@@ -33,10 +20,10 @@ export const ProyectionsAndFaltants: React.FC<ProyectionsAndFaltantsProps> = ({
                 <div className="flex justify-evenly text-xs">
                     {/* Primera columna */}
                     <div className="flex flex-col">
-                        {firstColumn.map((item) => (
+                        {firstColumn.map((item, i) => (
                             <div
-                                key={item.id}
-                                className={`flex gap-2 justify-between ${item.id % 2 !== 0 ? 'bg-black/10' : ''
+                                key={i}
+                                className={`flex gap-2 justify-between ${i % 2 !== 0 ? 'bg-black/10' : ''
                                     }`}
                             >
                                 <p>{item.proyeccion}</p>
@@ -56,10 +43,10 @@ export const ProyectionsAndFaltants: React.FC<ProyectionsAndFaltantsProps> = ({
 
                     {/* Segunda columna */}
                     <div className="flex flex-col">
-                        {secondColumn.map((item) => (
+                        {secondColumn.map((item, i) => (
                             <div
-                                key={item.id}
-                                className={`flex gap-2 justify-between ${item.id % 2 !== 1 ? 'bg-black/10' : ''
+                                key={i}
+                                className={`flex gap-2 justify-between ${i % 2 !== 0 ? 'bg-black/10' : ''
                                     }`}
                             >
                                 <p>{item.proyeccion}</p>

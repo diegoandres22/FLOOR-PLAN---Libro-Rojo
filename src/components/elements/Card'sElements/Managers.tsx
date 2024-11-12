@@ -1,14 +1,11 @@
-import React from 'react';
 
-// Definimos los tipos de las props
-interface ManagersProps {
-    apertura: string;
-    cierre: string;
-}
+
+import React from 'react';
+import { ManagersProps } from '@/types';
 
 export const Managers: React.FC<ManagersProps> = ({ apertura, cierre }) => {
     return (
-        <div className="flex flex-col items-center text-xs font-semibold">
+        <div className="flex flex-col items-center text-xs font-semibold pb-1">
             <div>Gerentes</div>
             <div className="flex w-full justify-around">
                 {/* Apertura */}
