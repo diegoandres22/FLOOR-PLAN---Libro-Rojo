@@ -8,8 +8,6 @@ import { IconAndStateProps } from '@/types';
 
 export const IconAndState: React.FC<IconAndStateProps> = ({ tienda, estado, ubi, name }) => {
 
-    const index = tienda === 'dmg' ? 1 : 2;
-    const altText = data[index]?.alt;
     const color = estado === 'abierto' ? 'bg-green-500' : estado === 'cerrado' ? 'bg-red-500' : 'bg-gray-500';
 
     return (
