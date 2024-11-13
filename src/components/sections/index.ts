@@ -20,3 +20,8 @@ export * from "./SummarySection/TabletsStores";
 
 // Refresh GLOBAL
 export * from "./Refresh";
+
+// alerts (notificaciones)
+export * from "./AlertsSection/NewNotification";
+export * from "./AlertsSection/NotificationsSents";
+
