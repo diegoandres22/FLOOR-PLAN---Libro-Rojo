@@ -28,8 +28,10 @@ export const AlertsScreen = () => {
                 </Card>
             </Tab>
             <Tab key="new" title="Enviar Notificacion">
-                <Card>
-                    <CardBody>
+                <Card className='max-w-[500px] m-auto'>
+                <CardBody className='h-[76vh] bg-neutral-200'>
+                <h3 className="text-lg font-semibold ml-2">Enviar notificación</h3>
+
                         <NewNotification />
                     </CardBody>
                 </Card>
