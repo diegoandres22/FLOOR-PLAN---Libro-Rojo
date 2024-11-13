@@ -2,7 +2,7 @@
 'use client';
 
 import React from 'react';
-import { Card, CardBody, Divider, ScrollShadow } from '@nextui-org/react';
+import { Card, CardBody, ScrollShadow } from '@nextui-org/react';
 
 interface Notification {
     id: string;
