@@ -15,6 +15,8 @@ export * from "./DashboardSections/ViewCards";
 
 // Summary (resumen)
 export * from "./SummarySection/Squares";
+export * from "./SummarySection/StoreProgress";
+export * from "./SummarySection/TabletsStores";
 
 // Refresh GLOBAL
 export * from "./Refresh";

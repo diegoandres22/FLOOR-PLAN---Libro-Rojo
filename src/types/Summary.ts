@@ -17,3 +17,15 @@ export interface SquaresProps {
         makai: number;
     };
 }
+
+export interface ProductoData {
+    id: string;
+    producto: string;
+    projection: number;
+    production: number;
+}
+
+export interface TabletsStoresProps {
+    dmg: ProductoData[];
+    makai: ProductoData[];
+}

@@ -22,9 +22,9 @@ export const StoreProgress: React.FC<ProgressBarProps> = ({ percentage, color })
 
 
     return (
-        <div >
-            <p className='font-semibold pl-4'>Progreso de las tiendas</p>
-            <div className="w-full h-6 rounded-full bg-gray-300 shadow-inner ">
+        <div className=''>
+            <p className='font-semibold pl-[7vw]'>Progreso de las tiendas</p>
+            <div className="w-[90vw] m-auto h-6 rounded-full bg-gray-300 shadow-inner ">
                 <div
                     className={`h-full rounded-full font-semibold shadow-inner flex items-center justify-center transition-all duration-300`}
                     style={{
@@ -32,7 +32,7 @@ export const StoreProgress: React.FC<ProgressBarProps> = ({ percentage, color })
                         backgroundColor: getColorByEstado(color),
                     }}
                 >
-                    {progress > 15 ? progress + "%" : ""}
+                    {progress > 14 ? progress + "%" : ""}
                 </div>
             </div>
         </div>
