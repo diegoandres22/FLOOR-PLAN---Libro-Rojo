@@ -10,7 +10,11 @@ export * from "./NavbarSection/NavbarSec";
 // Tabs
 export * from "./StoresSec/TabsSec";
 
-
 // Dashboard
-export * from "./DashboardSections/Refresh";
 export * from "./DashboardSections/ViewCards";
+
+// Summary (resumen)
+export * from "./SummarySection/Squares";
+
+// Refresh GLOBAL
+export * from "./Refresh";

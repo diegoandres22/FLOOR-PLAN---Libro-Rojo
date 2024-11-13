@@ -1,5 +1,6 @@
 import React from 'react'
-import { Squares } from '../sections/Summary/Squares'
+import { Squares, Refresh } from '../sections/'
+import { StoreProgress } from '../sections/SummarySection/StoreProgress';
 
 const openStores = {
     open: 4,
@@ -22,8 +23,10 @@ const maintenance = {
 export const SummaryScreen = () => {
 
     return (
-        <div>
+        <div className='pt-2'>
+            <Refresh />
             <Squares openStores={openStores} missings={missings} sadness={sadness} maintenance={maintenance} />
+            <StoreProgress percentage={50} color={1}  />
         </div>
     )
 }

@@ -14,7 +14,7 @@ import { Popover, PopoverTrigger, PopoverContent } from '@nextui-org/react'
 
 export const Squares: React.FC<SquaresProps> = ({ openStores, missings, sadness, maintenance }) => {
     return (
-        <div className='flex p-4 justify-evenly gap-4 flex-wrap'>
+        <div className='flex p-4 pt-0 justify-evenly gap-4 flex-wrap'>
 
             <Popover placement="bottom" showArrow backdrop="opaque">
                 <PopoverTrigger>
@@ -33,7 +33,6 @@ export const Squares: React.FC<SquaresProps> = ({ openStores, missings, sadness,
                             </div>
                         </div>
                     </button>
-
                 </PopoverTrigger>
                 <PopoverContent>
                     <div className="px-1 py-2">
