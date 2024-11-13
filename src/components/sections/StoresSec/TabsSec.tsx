@@ -15,7 +15,7 @@ export const TabsSec = () => {
     };
 
     return (
-        <div className="flex w-full h-screen flex-col items-center mt-4">
+        <div className="flex w-full flex-col items-center mt-4">
             <Tabs aria-label="Options" selectedKey={activeTab} onSelectionChange={handleTabChange}>
                 <Tab key="proyecciones" title="Proyecciones">
                     {activeTab === 'proyecciones' && (
