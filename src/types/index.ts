@@ -11,4 +11,6 @@ export * from "./ProjectionsTables"
 export * from "./CardsTiendas"
 
 
+//props summary (resumen)
+export * from "./Summary"
 
