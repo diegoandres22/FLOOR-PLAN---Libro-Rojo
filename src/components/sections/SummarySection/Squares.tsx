@@ -170,7 +170,7 @@ export const Squares: React.FC<SquaresProps> = ({ openStores, missings, sadness,
                 <PopoverContent>
                     <div className="px-1 py-2">
                         <div className="text-small font-bold">Solicitudes de servicios generales</div>
-                        <div className="text-tiny">Tanto "Pendiente" como "En proceso"</div>
+                        <div className="text-tiny">Tanto &quot;Pendiente&quot; como &quot;En proceso&quot;</div>
                     </div>
                 </PopoverContent>
             </Popover>
